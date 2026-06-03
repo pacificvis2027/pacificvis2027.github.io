@@ -49,9 +49,15 @@ const SECTIONS = [
     members: [{ name: 'TBA', affiliation: '' }],
   },
   {
-    title: 'Steering Committee Chair',
+    title: 'Steering Committee',
     members: [
+      { name: 'Wei Chen', affiliation: 'Zhejiang University' },
+      { name: 'Issei Fujishiro', affiliation: 'Keio University' },
+      { name: 'Seokhee Hong', affiliation: 'University of Sydney' },
+      { name: 'Takayuki Itoh', affiliation: 'Ochanomizu University' },
+      { name: 'Kwan-Liu Ma', affiliation: 'University of California' },
       { name: 'Jinwook Seo', affiliation: 'Seoul National University' },
+      { name: 'Xiaoru Yuan', affiliation: 'Peking University' },
     ],
   },
 ];

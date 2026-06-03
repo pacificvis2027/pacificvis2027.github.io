@@ -57,7 +57,7 @@ export default function Page() {
             ))}
             <tr>
               <td className="font-medium text-slate-900">Conference Dates</td>
-              <td colSpan={2}>April 2027 (TBA)</td>
+              <td colSpan={2}>April 19-22, 2027</td>
             </tr>
           </tbody>
         </table>

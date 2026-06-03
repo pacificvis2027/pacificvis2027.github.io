@@ -2,9 +2,21 @@ const TIERS = [
   {
     title: 'Hosts & Co-Sponsors',
     items: [
-      { name: 'IEEE', href: 'https://www.ieee.org/' },
-      { name: 'IEEE Computer Society', href: 'https://www.computer.org/' },
-      { name: 'IEEE VGTC', href: 'https://tc.computer.org/vgtc/' },
+      {
+        name: 'IEEE',
+        href: 'https://www.ieee.org/',
+        logo: '/images/ieee-mb-blue.png',
+      },
+      {
+        name: 'IEEE Computer Society',
+        href: 'https://www.computer.org/',
+        logo: '/images/ieee-cs-logo-orange.png',
+      },
+      {
+        name: 'IEEE VGTC',
+        href: 'https://tc.computer.org/vgtc/',
+        logo: '/images/vgtc-color.jpg',
+      },
     ],
   },
   {
@@ -40,9 +52,17 @@ export default function Sponsors() {
                       href={s.href}
                       target={s.href !== '#' ? '_blank' : undefined}
                       rel="noreferrer"
-                      className="grid aspect-[3/2] place-items-center border border-slate-200 px-2 text-center text-xs text-slate-600 hover:bg-slate-50"
+                      className="grid aspect-[3/2] place-items-center border border-slate-200 bg-white px-4 text-center text-xs text-slate-600 hover:bg-slate-50"
                     >
-                      {s.name}
+                      {s.logo ? (
+                        <img
+                          src={s.logo}
+                          alt={`${s.name} logo`}
+                          className="max-h-16 max-w-full object-contain"
+                        />
+                      ) : (
+                        s.name
+                      )}
                     </a>
                   </li>
                 ))}
