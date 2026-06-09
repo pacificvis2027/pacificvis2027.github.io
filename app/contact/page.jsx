@@ -12,8 +12,8 @@ export default function Page() {
       <ul className="mt-3 space-y-2 text-slate-700">
         <li>
           Email:{' '}
-          <a href="mailto:contact@pacificvis2027.org" className="link">
-            contact@pacificvis2027.org
+          <a href="mailto:pacificvis27@gmail.com" className="link">
+            pacificvis27@gmail.com
           </a>
         </li>
         <li>Conference location: Busan, South Korea</li>

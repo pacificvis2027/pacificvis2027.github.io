@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container-page text-center text-lg text-slate-500">
         <p>
           Contact:{' '}
-          <a href="mailto:contact@pacificvis2027.org" className="link">
-            contact@pacificvis2027.org
+          <a href="mailto:pacificvis27@gmail.com" className="link">
+            pacificvis27@gmail.com
           </a>
           {' · '}
           <Link href="/contact/" className="link">
