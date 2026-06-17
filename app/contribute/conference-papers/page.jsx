@@ -1,6 +1,25 @@
 import PageShell from '../../components/PageShell';
+import TrackChairs from '../../components/TrackChairs';
 
 export const metadata = { title: 'Conference Papers — PacificVis 2027' };
+
+const CHAIRS = [
+  {
+    name: 'Yong Wang',
+    affiliation: 'Nanyang Technological University',
+    photo: '/images/committee/yong-wang.jpg',
+  },
+  {
+    name: 'Bei Wang',
+    affiliation: 'University of Utah',
+    photo: '/images/committee/bei-wang.jpg',
+  },
+  {
+    name: 'Giuseppe Liotta',
+    affiliation: 'University of Perugia',
+    photo: '/images/committee/giuseppe-liotta.jpg',
+  },
+];
 
 export default function Page() {
   return (
@@ -54,6 +73,25 @@ export default function Page() {
           </tbody>
         </table>
       </div>
+
+      <section>
+        <h2 className="h2">Submission Instructions</h2>
+        <p className="lead mt-3">
+          Original, unpublished full papers of up to 9 pages plus 2 additional
+          pages for acknowledgments and references are invited.
+        </p>
+        <p className="lead mt-3">
+          Manuscripts should follow the IEEE VGTC conference author guidelines:{' '}
+          <a
+            href="https://tc.computer.org/vgtc/publications/conference/"
+            className="link"
+          >
+            tc.computer.org/vgtc/publications/conference/
+          </a>
+        </p>
+      </section>
+
+      <TrackChairs title="Paper Chairs" people={CHAIRS} />
     </PageShell>
   );
 }

@@ -1,6 +1,25 @@
 import PageShell from '../../components/PageShell';
+import TrackChairs from '../../components/TrackChairs';
 
 export const metadata = { title: 'Posters — PacificVis 2027' };
+
+const CHAIRS = [
+  {
+    name: 'Minsuk Kahng',
+    affiliation: 'Yonsei University',
+    photo: '/images/committee/minsuk-kahng.jpg',
+  },
+  {
+    name: 'Yuxin Ma',
+    affiliation: 'Southern University of Science and Technology',
+    photo: '/images/committee/yuxin-ma.png',
+  },
+  {
+    name: 'Ryosuke Saga',
+    affiliation: 'Osaka Metropolitan University',
+    photo: '/images/committee/ryosuke-saga.jpg',
+  },
+];
 
 export default function Page() {
   return (
@@ -40,6 +59,22 @@ export default function Page() {
           </tbody>
         </table>
       </div>
+
+      <section>
+        <h2 className="h2">Submission Instructions</h2>
+        <p className="lead mt-3">
+          Original, unpublished poster summaries of up to 2 pages, including
+          figures, tables, and references, are invited.
+        </p>
+        <p className="lead mt-3">
+          Submissions should briefly describe the background, problem,
+          objectives, methodology, findings, supporting evidence, and
+          implications of the work. Posters will be selected through a juried
+          review process.
+        </p>
+      </section>
+
+      <TrackChairs title="Posters Chairs" people={CHAIRS} />
     </PageShell>
   );
 }

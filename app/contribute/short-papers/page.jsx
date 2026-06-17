@@ -1,6 +1,25 @@
 import PageShell from '../../components/PageShell';
+import TrackChairs from '../../components/TrackChairs';
 
 export const metadata = { title: 'Short Papers (VisNotes) — PacificVis 2027' };
+
+const CHAIRS = [
+  {
+    name: 'Dongyu Liu',
+    affiliation: 'University of California, Davis',
+    photo: '/images/committee/dongyu-liu.jpg',
+  },
+  {
+    name: 'Jaemin Jo',
+    affiliation: 'Sungkyunkwan University',
+    photo: '/images/committee/jaemin-jo.jpg',
+  },
+  {
+    name: 'Ko-Chih Wang',
+    affiliation: 'National Taiwan Normal University',
+    photo: '/images/committee/ko-chih-wang.jpg',
+  },
+];
 
 export default function Page() {
   return (
@@ -35,6 +54,26 @@ export default function Page() {
           </tbody>
         </table>
       </div>
+
+      <section>
+        <h2 className="h2">Submission Instructions</h2>
+        <p className="lead mt-3">
+          Original, unpublished short papers of up to 6 pages, including
+          references, are invited. Accepted VisNotes will appear in the IEEE
+          Digital Library.
+        </p>
+        <p className="lead mt-3">
+          Manuscripts should follow the IEEE VGTC conference author guidelines:{' '}
+          <a
+            href="https://tc.computer.org/vgtc/publications/conference/"
+            className="link"
+          >
+            tc.computer.org/vgtc/publications/conference/
+          </a>
+        </p>
+      </section>
+
+      <TrackChairs title="VisNotes Chairs" people={CHAIRS} />
     </PageShell>
   );
 }

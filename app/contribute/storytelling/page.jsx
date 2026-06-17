@@ -1,8 +1,22 @@
 import PageShell from '../../components/PageShell';
+import TrackChairs from '../../components/TrackChairs';
 
 export const metadata = {
   title: 'Visual Data Storytelling Contest — PacificVis 2027',
 };
+
+const CHAIRS = [
+  {
+    name: 'Linping Yuan',
+    affiliation: 'Hong Kong University of Science and Technology',
+    photo: '/images/committee/linping-yuan.jpg',
+  },
+  {
+    name: 'Angelos Chatzimparmpas',
+    affiliation: 'Utrecht University',
+    photo: '/images/committee/angelos-chatzimparmpas.jpg',
+  },
+];
 
 export default function Page() {
   return (
@@ -16,13 +30,7 @@ export default function Page() {
         may include data-driven articles, scrollytelling pieces, dashboards,
         videos, or other narrative visualization artifacts.
       </p>
-      <section>
-        <h2 className="h2">Chairs</h2>
-        <ul className="mt-3 space-y-2 text-lg text-slate-700">
-          <li>Linping Yuan, Hong Kong University of Science and Technology</li>
-          <li>Angelos Chatzimparmpas, Utrecht University</li>
-        </ul>
-      </section>
+      <TrackChairs title="Contest Chairs" people={CHAIRS} />
 
       <section>
         <h2 className="h2">Contest Timeline</h2>
@@ -57,6 +65,19 @@ export default function Page() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section>
+        <h2 className="h2">Submission Instructions</h2>
+        <p className="lead mt-3">
+          The contest welcomes compelling data-driven stories in interactive,
+          narrative, dashboard, article, scrollytelling, video, or related
+          visualization formats.
+        </p>
+        <p className="lead mt-3">
+          Submission details and any external contest materials will be posted
+          here as they are finalized.
+        </p>
       </section>
     </PageShell>
   );
