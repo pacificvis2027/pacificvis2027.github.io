@@ -30,7 +30,6 @@ export default function Page() {
         may include data-driven articles, scrollytelling pieces, dashboards,
         videos, or other narrative visualization artifacts.
       </p>
-      <TrackChairs title="Contest Chairs" people={CHAIRS} />
 
       <section>
         <h2 className="h2">Contest Timeline</h2>
@@ -79,6 +78,8 @@ export default function Page() {
           here as they are finalized.
         </p>
       </section>
+
+      <TrackChairs title="Contest Chairs" people={CHAIRS} />
     </PageShell>
   );
 }

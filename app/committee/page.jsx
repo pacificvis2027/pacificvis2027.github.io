@@ -160,65 +160,6 @@ const SECTIONS = [
   },
 ];
 
-const JOURNAL_TRACK_PROGRAM_COMMITTEE = [
-  ['Takayuki Itoh', 'Ochanomizu University'],
-  ['Aidong Lu', 'University of North Carolina at Charlotte'],
-  ["Lingyun Yu", "Xi'an Jiaotong Liverpool University"],
-  ['Qian Zhu', 'Renmin University'],
-  ['Tan Tang', 'Zhejiang University'],
-  ['Leni Yang', 'Inria'],
-  ['Qiong Zeng', 'Shandong University'],
-  ['Thomas Schultz', 'University of Bonn'],
-  ['Ghulam Jilani Quadri', 'University of Oklahoma'],
-  ['Fabrizio Montecchiani', 'University of Perugia'],
-  ['Weidong Huang', 'University of Technology Sydney'],
-  ['Katerina Vrotsou', 'Linkoping University'],
-  [
-    'Weikai Yang',
-    'Hong Kong University of Science and Technology (Guangzhou)',
-  ],
-  ['Yifang Wang', 'Northwestern University'],
-  ['Changjian Chen', 'Hunan University'],
-  ['Xingbo Wang', 'Bosch Research North America'],
-  ['Jiachen Wang', 'Zhejiang University'],
-  ['Aritra Dasgupta', 'New Jersey Institute of Technology'],
-  ['Jun Tao', 'Sun Yat-sen University'],
-  [
-    'Carla Dal Sasso Freitas',
-    'Universidade Federal do Rio Grande do Sul',
-  ],
-  ['Shri Harini Ramesh', 'Carleton University'],
-  ['Dazhen Deng', 'Zhejiang University'],
-  ['Yang Shi', 'Tongji University'],
-  ['Philipp Kindermann', 'University of Trier'],
-  ['Steve Petruzza', 'Utah State University'],
-  ['Seok-Hee Hong', 'University of Sydney'],
-  ['Panagiotis Ritsos', 'Bangor University'],
-  ['Robert Kruger', 'NYU'],
-  ['Jiazhou Liu', 'Monash University'],
-  ['Agnes Haryanto', 'Monash University'],
-  ['Christy Jie Liang', 'University of Technology Sydney'],
-  ['Kadek Satriadi', 'Monash University'],
-  ['Guodao Sun', 'Zhejiang University of Technology'],
-  ['Alma Cantu', 'Newcastle University'],
-  ['Ciril Bohak', 'University of Ljubljana'],
-  ["Alfie Abdul-Rahman", "King's College London"],
-  ['Eric Morth', 'Bosch Research North America'],
-  ['Michael Wybrow', 'Monash University'],
-  ['Issei Fujishiro', 'Keio University'],
-  ['Bettina Speckmann', 'Eindhoven University of Technology'],
-  ['David Kouril', 'Harvard Medical School'],
-  ['Sungahn Ko', 'POSTECH'],
-  ['Alberto Jaspe-Villanueva', 'KAUST'],
-  ['Xinhuan Shu', 'Newcastle University'],
-  ['Hsiang-Yun Wu', 'St. Polten University of Applied Sciences'],
-  ['Yue Zhang', 'Oregon State University'],
-  ['Zhicheng Liu', 'University of Maryland'],
-  ['Hanqi Guo', 'Ohio State University'],
-  ['Markus Hadwiger', 'KAUST'],
-  ['Tamara Mchedlidze', 'Utrecht University'],
-];
-
 function initials(name) {
   return name
     .split(/\s+/)
@@ -306,29 +247,6 @@ export default function Page() {
           );
         })}
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#263c91]">
-            Journal Track Program Committee Members
-          </h2>
-          <div className="mt-5 overflow-x-auto">
-            <table className="table-classic">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Affiliation</th>
-                </tr>
-              </thead>
-              <tbody>
-                {JOURNAL_TRACK_PROGRAM_COMMITTEE.map(([name, affiliation]) => (
-                  <tr key={`${name}-${affiliation}`}>
-                    <td className="font-medium text-slate-900">{name}</td>
-                    <td>{affiliation}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
       </div>
     </PageShell>
   );
