@@ -3,12 +3,40 @@ import PageShell from '../../components/PageShell';
 export const metadata = { title: 'Common Call for Papers — PacificVis 2027' };
 
 const TRACKS = [
-  { name: 'TVCG Journal Papers',     href: '/contribute/tvcg-journal-papers/' },
-  { name: 'Conference Papers',       href: '/contribute/conference-papers/' },
-  { name: 'Short Papers (VisNotes)', href: '/contribute/short-papers/' },
-  { name: 'Posters',                 href: '/contribute/posters/' },
-  { name: 'Visual Data Storytelling',href: '/contribute/storytelling/' },
-  { name: 'Workshops',               href: '/contribute/workshops/' },
+  {
+    name: 'TVCG Journal Papers',
+    href: '/contribute/tvcg-journal-papers/',
+    submission: 'September 7, 2026',
+    notification: 'October 27, 2026',
+  },
+  {
+    name: 'Conference Papers',
+    href: '/contribute/conference-papers/',
+    submission: 'November 8, 2026',
+    notification: 'December 15, 2026',
+  },
+  {
+    name: 'Short Papers (VisNotes)',
+    href: '/contribute/short-papers/',
+    submission: 'January 7, 2027',
+    notification: 'February 8, 2027',
+  },
+  {
+    name: 'Posters',
+    href: '/contribute/posters/',
+    submission: 'February 15, 2027',
+    notification: 'March 8, 2027',
+  },
+  {
+    name: 'Visual Data Storytelling',
+    href: '/contribute/storytelling/',
+    submission: 'February 9, 2027',
+    notification: 'February 28, 2027',
+  },
+  {
+    name: 'Workshops',
+    href: '/contribute/workshops/',
+  },
 ];
 
 export default function Page() {
@@ -35,8 +63,8 @@ export default function Page() {
 
       <h2 className="h2 mt-8">Important Dates</h2>
       <p className="muted">
-        All deadlines are tentative and will be confirmed soon. Times are
-        anywhere on Earth (AoE) unless otherwise stated.
+        All deadlines are at 11:59pm (23:59) anywhere on Earth (AoE) unless
+        otherwise stated.
       </p>
       <div className="mt-4 overflow-x-auto">
         <table className="table-classic">
@@ -48,11 +76,11 @@ export default function Page() {
             </tr>
           </thead>
           <tbody>
-            {TRACKS.map((t) => (
+            {TRACKS.filter((t) => t.submission).map((t) => (
               <tr key={t.name}>
                 <td className="font-medium text-slate-900">{t.name}</td>
-                <td>TBA</td>
-                <td>TBA</td>
+                <td>{t.submission}</td>
+                <td>{t.notification}</td>
               </tr>
             ))}
             <tr>

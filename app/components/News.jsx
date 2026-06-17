@@ -1,15 +1,15 @@
 const NEWS = [
   {
     date: 'Coming soon',
-    body: 'Welcome to the official site for the 20th IEEE Pacific Visualization Conference, hosted in Busan, South Korea. Stay tuned for full details on the program, important dates, and registration.',
+    body: 'Welcome to the official site for the 20th IEEE Pacific Visualization Conference, hosted in Busan, South Korea over April 19-22, 2027.',
   },
   {
-    date: 'Coming soon',
-    body: 'Submission portals for TVCG Journal Papers, Conference Papers, Short Papers (VisNotes), Posters, and Visual Data Storytelling will open in the coming months.',
+    date: 'Important dates',
+    body: 'Submission timelines are now available for TVCG Journal Papers, Conference Papers, Short Papers (VisNotes), Posters, and Visual Data Storytelling.',
   },
   {
-    date: 'Coming soon',
-    body: 'We will invite proposals for workshops and tutorials on emerging topics in visualization. Watch this space for the proposal call.',
+    date: 'Registration',
+    body: 'Registration dates and fees have been posted. Early registration closes on March 9, 2027, and the author registration deadline is March 23, 2027.',
   },
 ];
 
