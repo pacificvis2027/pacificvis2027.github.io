@@ -4,14 +4,13 @@ export const metadata = { title: 'Committee — PacificVis 2027' };
 
 const SECTIONS = [
   {
-    title: 'Honorary Chairs',
-    members: [{ name: 'TBA', affiliation: '' }],
-  },
-  {
     title: 'General Chairs',
     members: [
-      { name: 'TBA', affiliation: '' },
-      { name: 'TBA', affiliation: '' },
+      {
+        name: 'Sungahn Ko',
+        affiliation: 'POSTECH',
+        photo: '/images/committee/Sungahn_Ko.jpeg',
+      },
     ],
   },
   {
@@ -95,16 +94,29 @@ const SECTIONS = [
     ],
   },
   {
-    title: 'Storytelling Chair',
-    members: [{ name: 'TBA', affiliation: '' }],
-  },
-  {
-    title: 'Workshops Chairs',
-    members: [{ name: 'TBA', affiliation: '' }],
+    title: 'Visual Data Storytelling Contest Chairs',
+    members: [
+      {
+        name: 'Linping Yuan',
+        affiliation: 'Hong Kong University of Science and Technology',
+        photo: '/images/committee/linping-yuan.jpg',
+      },
+      {
+        name: 'Angelos Chatzimparmpas',
+        affiliation: 'Utrecht University',
+        photo: '/images/committee/angelos-chatzimparmpas.jpg',
+      },
+    ],
   },
   {
     title: 'Local Organizing Chairs',
-    members: [{ name: 'TBA', affiliation: '' }],
+    members: [
+      {
+        name: 'Sunghee Kim',
+        affiliation: 'Dong-Eui University',
+        photo: '/images/committee/sunghee-kim.jpg',
+      },
+    ],
   },
   {
     title: 'Steering Committee',

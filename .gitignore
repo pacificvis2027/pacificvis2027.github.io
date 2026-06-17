@@ -27,6 +27,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# local PCS setup files
+pacificvis*_setup.csv
+
 # editor
 .vscode/
 .idea/

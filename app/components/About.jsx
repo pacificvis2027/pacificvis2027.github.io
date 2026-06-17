@@ -27,9 +27,7 @@ export default function About() {
 
         <h2 className="h2 mt-10">General Chairs of PacificVis 2027</h2>
         <p className="lead mt-3">
-          To be announced
-          <br />
-          To be announced
+          Sungahn Ko (POSTECH)
         </p>
 
         <h2 className="h2 mt-10">Chair of PacificVis Steering Committee</h2>
