@@ -59,16 +59,16 @@ export default function Page() {
       </p>
 
       <h2 className="h2 mt-8">Early Registration</h2>
-      <p className="muted">Deadline: March 9, 2027</p>
+      <p className="muted">Deadline: TBA</p>
       <FeeTable rows={FULL_EARLY} />
 
       <h2 className="h2 mt-8">Early One-Day Registration</h2>
-      <p className="muted">Deadline: March 9, 2027</p>
+      <p className="muted">Deadline: TBA</p>
       <FeeTable rows={ONE_DAY_EARLY} />
 
       <h2 className="h2 mt-8">Conference Late / On-Site Registration</h2>
       <p className="muted">
-        The author registration deadline is March 23, 2027.
+        The author registration deadline is TBA.
       </p>
       <FeeTable rows={FULL_LATE} />
 

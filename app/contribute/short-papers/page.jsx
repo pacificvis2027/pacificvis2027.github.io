@@ -39,17 +39,17 @@ export default function Page() {
           <tbody>
             <tr>
               <td className="font-medium text-slate-900">Papers</td>
-              <td>January 7, 2027</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">Notification</td>
-              <td>February 8, 2027</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Camera-ready papers
               </td>
-              <td>February 15, 2027</td>
+              <td>TBA</td>
             </tr>
           </tbody>
         </table>

@@ -41,25 +41,25 @@ export default function Page() {
                 <td className="font-medium text-slate-900">
                   Submission deadline
                 </td>
-                <td>February 9, 2027</td>
+                <td>TBA</td>
               </tr>
               <tr>
                 <td className="font-medium text-slate-900">
                   Notification date
                 </td>
-                <td>February 28, 2027</td>
+                <td>TBA</td>
               </tr>
               <tr>
                 <td className="font-medium text-slate-900">
                   Camera-ready deadline
                 </td>
-                <td>March 13, 2027</td>
+                <td>TBA</td>
               </tr>
               <tr>
                 <td className="font-medium text-slate-900">
                   Present at PacificVis 2027
                 </td>
-                <td>April 19-22, 2027</td>
+                <td>TBA</td>
               </tr>
             </tbody>
           </table>

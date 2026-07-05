@@ -14,7 +14,7 @@ export default function HomePage() {
           PacificVis 2027
         </h1>
         <p className="mt-5 text-3xl text-slate-700">
-          Busan, South Korea · April 19-22, 2027
+          Busan, South Korea · TBA
         </p>
       </section>
 

@@ -42,19 +42,19 @@ export default function Page() {
               <td className="font-medium text-slate-900">
                 Poster summary submission deadline
               </td>
-              <td>February 15, 2027</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Poster summary notification
               </td>
-              <td>March 8, 2027</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Camera-ready poster summary due
               </td>
-              <td>March 22, 2027</td>
+              <td>TBA</td>
             </tr>
           </tbody>
         </table>

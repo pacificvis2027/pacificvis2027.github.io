@@ -20,7 +20,7 @@ export default function About() {
         <p className="lead mt-3">
           <strong>
             The 20th edition of PacificVis will take place in Busan, South
-            Korea, over April 19-22, 2027.
+            Korea. Dates: TBA.
           </strong>{' '}
           We hope all participants will enjoy PacificVis 2027.
         </p>

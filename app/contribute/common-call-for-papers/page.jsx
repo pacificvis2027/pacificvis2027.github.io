@@ -6,32 +6,32 @@ const TRACKS = [
   {
     name: 'TVCG Journal Papers',
     href: '/contribute/tvcg-journal-papers/',
-    submission: 'September 7, 2026',
-    notification: 'October 27, 2026',
+    submission: 'TBA',
+    notification: 'TBA',
   },
   {
     name: 'Conference Papers',
     href: '/contribute/conference-papers/',
-    submission: 'November 8, 2026',
-    notification: 'December 15, 2026',
+    submission: 'TBA',
+    notification: 'TBA',
   },
   {
     name: 'Short Papers (VisNotes)',
     href: '/contribute/short-papers/',
-    submission: 'January 7, 2027',
-    notification: 'February 8, 2027',
+    submission: 'TBA',
+    notification: 'TBA',
   },
   {
     name: 'Posters',
     href: '/contribute/posters/',
-    submission: 'February 15, 2027',
-    notification: 'March 8, 2027',
+    submission: 'TBA',
+    notification: 'TBA',
   },
   {
     name: 'Visual Data Storytelling',
     href: '/contribute/storytelling/',
-    submission: 'February 9, 2027',
-    notification: 'February 28, 2027',
+    submission: 'TBA',
+    notification: 'TBA',
   },
   {
     name: 'Workshops',
@@ -85,7 +85,7 @@ export default function Page() {
             ))}
             <tr>
               <td className="font-medium text-slate-900">Conference Dates</td>
-              <td colSpan={2}>April 19-22, 2027</td>
+              <td colSpan={2}>TBA</td>
             </tr>
           </tbody>
         </table>

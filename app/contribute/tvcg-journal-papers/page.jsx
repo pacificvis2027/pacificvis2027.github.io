@@ -40,33 +40,33 @@ export default function Page() {
           <tbody>
             <tr>
               <td className="font-medium text-slate-900">Abstracts</td>
-              <td>September 1, 2026</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">Papers</td>
-              <td>September 7, 2026</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">Notification</td>
-              <td>October 27, 2026</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Revisions (2nd round)
               </td>
-              <td>November 11, 2026</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Final notification (2nd round)
               </td>
-              <td>December 2, 2026</td>
+              <td>TBA</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Camera-ready papers
               </td>
-              <td>January 6, 2027</td>
+              <td>TBA</td>
             </tr>
           </tbody>
         </table>
