@@ -1,4 +1,5 @@
 import About from './components/About';
+import HostCityVideo from './components/HostCityVideo';
 import News from './components/News';
 import PreviousEvents from './components/PreviousEvents';
 import Sponsors from './components/Sponsors';
@@ -19,6 +20,7 @@ export default function HomePage() {
       </section>
 
       <About />
+      <HostCityVideo />
       <News />
       <Sponsors />
       <PreviousEvents />
