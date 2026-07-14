@@ -5,7 +5,7 @@ const NEWS = [
   },
   {
     date: 'Important dates',
-    body: 'Submission timelines are TBA for TVCG Journal Papers, Conference Papers, Short Papers (VisNotes), Posters, and Visual Data Storytelling.',
+    body: 'The TVCG Journal Paper Track CFP is available. Other submission timelines remain TBA.',
   },
   {
     date: 'Registration',

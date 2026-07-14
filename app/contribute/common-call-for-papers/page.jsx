@@ -6,8 +6,8 @@ const TRACKS = [
   {
     name: 'TVCG Journal Papers',
     href: '/contribute/tvcg-journal-papers/',
-    submission: 'TBA',
-    notification: 'TBA',
+    submission: 'September 8, 2026',
+    notification: 'October 27, 2026',
   },
   {
     name: 'Conference Papers',
