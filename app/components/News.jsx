@@ -1,11 +1,11 @@
 const NEWS = [
   {
     date: 'Coming soon',
-    body: 'Welcome to the official site for the 20th IEEE Pacific Visualization Conference, hosted in Busan, South Korea. Dates: TBA.',
+    body: 'Welcome to the official site for the 20th IEEE Pacific Visualization Conference, taking place in Busan, South Korea, April 19-22, 2027.',
   },
   {
     date: 'Important dates',
-    body: 'The TVCG Journal Paper Track CFP is available. Other submission timelines remain TBA.',
+    body: 'The TVCG Journal Paper Track CFP and Conference Paper Track dates are available. The full Conference Paper Track CFP will be posted when finalized.',
   },
   {
     date: 'Registration',

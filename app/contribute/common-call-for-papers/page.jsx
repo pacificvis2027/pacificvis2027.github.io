@@ -12,8 +12,8 @@ const TRACKS = [
   {
     name: 'Conference Papers',
     href: '/contribute/conference-papers/',
-    submission: 'TBA',
-    notification: 'TBA',
+    submission: 'November 9, 2026',
+    notification: 'December 16, 2026',
   },
   {
     name: 'Short Papers (VisNotes)',

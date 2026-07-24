@@ -37,38 +37,48 @@ export default function Page() {
       </p>
       <div className="mt-4 overflow-x-auto">
         <table className="table-classic">
+          <thead>
+            <tr>
+              <th>Deadline</th>
+              <th>Dates</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td className="font-medium text-slate-900">Abstracts</td>
-              <td>TBA</td>
-            </tr>
-            <tr>
-              <td className="font-medium text-slate-900">Papers</td>
-              <td>TBA</td>
+              <td className="font-medium text-slate-900">
+                Conference track - Abstracts
+              </td>
+              <td>November 2, 2026</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
-                Notification (1st round)
+                Conference track - Papers
               </td>
-              <td>TBA</td>
+              <td>November 9, 2026</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
-                Revisions (2nd round)
+                Conference track - Notification (1st round)
               </td>
-              <td>TBA</td>
+              <td>December 16, 2026</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
-                Final notification (2nd round)
+                Conference track - Revisions (2nd round)
               </td>
-              <td>TBA</td>
+              <td>January 11, 2027</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
-                Camera-ready papers
+                Conference track - Final notification (2nd round)
               </td>
-              <td>TBA</td>
+              <td>January 25, 2027</td>
+            </tr>
+            <tr>
+              <td className="font-medium text-slate-900">
+                Conference track - Camera-ready papers
+              </td>
+              <td>February 8, 2027</td>
             </tr>
           </tbody>
         </table>
