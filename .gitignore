@@ -30,6 +30,9 @@ yarn-error.log*
 # local PCS setup files
 pacificvis*_setup.csv
 
+# temporary source materials
+/temp_resources/
+
 # editor
 .vscode/
 .idea/

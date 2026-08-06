@@ -30,8 +30,8 @@ const TRACKS = [
   {
     name: 'Visual Data Storytelling',
     href: '/contribute/storytelling/',
-    submission: 'TBA',
-    notification: 'TBA',
+    submission: 'February 1, 2027',
+    notification: 'February 15, 2027',
   },
   {
     name: 'Workshops',

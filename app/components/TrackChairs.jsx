@@ -8,10 +8,11 @@ function initials(name) {
     .toUpperCase();
 }
 
-export default function TrackChairs({ title = 'Chairs', people }) {
+export default function TrackChairs({ title = 'Chairs', people, children }) {
   return (
     <section>
       <h2 className="h2">{title}</h2>
+      {children ? <div className="mt-3">{children}</div> : null}
       <ul className="mt-5 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
         {people.map((person) => (
           <li key={person.name} className="text-center">
