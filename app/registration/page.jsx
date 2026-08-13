@@ -36,6 +36,12 @@ function FeeTable({ rows }) {
   return (
     <div className="mt-4 overflow-x-auto">
       <table className="table-classic">
+        <thead>
+          <tr>
+            <th>Registration Category</th>
+            <th>Fee</th>
+          </tr>
+        </thead>
         <tbody>
           {rows.map(([category, fee]) => (
             <tr key={category}>
@@ -78,7 +84,7 @@ export default function Page() {
       <FeeTable rows={ONE_DAY_LATE} />
 
       <h2 className="h2 mt-8">Registration Notes</h2>
-      <ul className="mt-3 list-disc space-y-2 pl-6 text-lg leading-8 text-slate-700">
+      <ul className="lead mt-3 list-disc space-y-4 pl-8">
         <li>
           Author/presenter registration fees are not refundable for Journal
           track, Conference track, VisNotes, Workshops, Posters, and Visual

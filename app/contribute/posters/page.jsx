@@ -33,10 +33,16 @@ export default function Page() {
 
       <h2 className="h2 mt-8">Important Dates</h2>
       <p className="muted">
-        All deadlines are at 11:59pm (23:59) anywhere on Earth (AoE).
+        All deadlines are at 11:59pm (23:59) Anywhere on Earth (AoE).
       </p>
       <div className="mt-4 overflow-x-auto">
         <table className="table-classic">
+          <thead>
+            <tr>
+              <th>Deadline</th>
+              <th>Date</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <td className="font-medium text-slate-900">
@@ -74,7 +80,17 @@ export default function Page() {
         </p>
       </section>
 
-      <TrackChairs title="Posters Chairs" people={CHAIRS} />
+      <TrackChairs title="Poster Chairs" people={CHAIRS}>
+        <p className="lead">
+          Contact:{' '}
+          <a
+            href="mailto:pvis27-p_chairs@googlegroups.com"
+            className="link"
+          >
+            pvis27-p_chairs@googlegroups.com
+          </a>
+        </p>
+      </TrackChairs>
     </PageShell>
   );
 }

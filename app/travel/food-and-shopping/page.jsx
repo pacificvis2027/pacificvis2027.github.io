@@ -1,4 +1,4 @@
-import PageShell, { Tba } from '../../components/PageShell';
+import PageShell from '../../components/PageShell';
 
 export const metadata = { title: 'Food & Shopping — PacificVis 2027' };
 
@@ -12,7 +12,6 @@ export default function Page() {
         the largest department stores in the world; for a more local feel,
         Gukje Market and the Nampo-dong streets are unmissable.
       </p>
-      <Tba />
     </PageShell>
   );
 }

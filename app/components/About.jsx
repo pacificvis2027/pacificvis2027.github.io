@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="section">
       <div className="container-page">
-        <h1 className="h1">PacificVis 2027</h1>
+        <h2 className="h1">PacificVis 2027</h2>
         <p className="lead mt-5">
           The IEEE Pacific Visualization Conference (PacificVis) was born in
           Kyoto in 2008 as an international event sponsored by the IEEE Computer
@@ -20,7 +20,7 @@ export default function About() {
         <p className="lead mt-3">
           <strong>
             The 20th edition of PacificVis will take place in Busan, South
-            Korea. Dates: TBA.
+            Korea, April 19-22, 2027.
           </strong>{' '}
           We hope all participants will enjoy PacificVis 2027.
         </p>

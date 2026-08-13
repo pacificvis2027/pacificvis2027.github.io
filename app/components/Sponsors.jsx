@@ -19,14 +19,6 @@ const TIERS = [
       },
     ],
   },
-  {
-    title: 'Local Partners',
-    items: [
-      { name: 'Local University TBA', href: '#' },
-      { name: 'Busan Metropolitan City', href: '#' },
-      { name: 'Industry Partner TBA', href: '#' },
-    ],
-  },
 ];
 
 export default function Sponsors() {
@@ -35,8 +27,8 @@ export default function Sponsors() {
       <div className="container-page">
         <h2 className="h2">Sponsors</h2>
         <p className="muted mt-2">
-          Logos and a full sponsorship prospectus will be published as partners
-          are confirmed.
+          Additional sponsor and partner information will be published as it is
+          confirmed.
         </p>
 
         <div className="mt-6 space-y-6">
@@ -50,7 +42,7 @@ export default function Sponsors() {
                   <li key={s.name}>
                     <a
                       href={s.href}
-                      target={s.href !== '#' ? '_blank' : undefined}
+                      target="_blank"
                       rel="noreferrer"
                       className="grid aspect-[3/2] place-items-center border border-slate-200 bg-white px-4 text-center text-xs text-slate-600 hover:bg-slate-50"
                     >
@@ -73,7 +65,7 @@ export default function Sponsors() {
 
         <p className="muted mt-6">
           Interested in sponsoring PacificVis 2027?{' '}
-          <a href="#contact" className="link">
+          <a href="/contact/" className="link">
             Contact the Organizing Committee
           </a>
           .

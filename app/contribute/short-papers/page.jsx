@@ -32,10 +32,16 @@ export default function Page() {
 
       <h2 className="h2 mt-8">Track-Specific Deadlines</h2>
       <p className="muted">
-        All deadlines are at 11:59pm (23:59) anywhere on Earth (AoE).
+        All deadlines are at 11:59pm (23:59) Anywhere on Earth (AoE).
       </p>
       <div className="mt-4 overflow-x-auto">
         <table className="table-classic">
+          <thead>
+            <tr>
+              <th>Deadline</th>
+              <th>Date</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <td className="font-medium text-slate-900">Papers</td>
@@ -68,7 +74,7 @@ export default function Page() {
             href="https://tc.computer.org/vgtc/publications/conference/"
             className="link"
           >
-            tc.computer.org/vgtc/publications/conference/
+            IEEE VGTC conference publication guide
           </a>
         </p>
       </section>

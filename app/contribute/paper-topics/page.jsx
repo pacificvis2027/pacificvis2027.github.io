@@ -25,15 +25,15 @@ export default function Page() {
         {TOPICS.map((t) => (
           <li
             key={t}
-            className="border-l-2 border-ocean-700 bg-slate-50 px-3 py-2 text-sm text-slate-700"
+            className="border-l-2 border-ocean-700 bg-slate-50 px-4 py-3 text-xl leading-8 text-slate-700"
           >
             {t}
           </li>
         ))}
       </ul>
       <p className="muted mt-4">
-        The full topic list will be finalized and published with the Common
-        Call for Papers.
+        Consult the relevant track page for its complete scope and evaluation
+        criteria.
       </p>
     </PageShell>
   );

@@ -6,9 +6,9 @@ export default function Page() {
   return (
     <PageShell eyebrow="Venue" title="Conference Banquet">
       <p className="lead">
-        The PacificVis 2027 banquet will showcase Busan&rsquo;s renowned
-        seafood and Korean cuisine in a memorable seafront setting. Banquet
-        date, location, and ticketing details will be announced.
+        PacificVis 2027 plans to host a conference banquet. The date, location,
+        menu, ticketing, and accessibility details will be announced once
+        confirmed.
       </p>
       <Tba />
     </PageShell>

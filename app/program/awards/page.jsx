@@ -8,7 +8,7 @@ export default function Page() {
       <p className="lead">
         PacificVis 2027 will recognize outstanding contributions through Best
         Paper, Best Short Paper, Best Poster, and the PacificVis Early Career
-        Researcher Award. Recipients and details will be announced during the
+        Award. Recipients and details will be announced during the
         conference.
       </p>
       <Tba />

@@ -1,6 +1,20 @@
 import PageShell from '../../components/PageShell';
+import TrackChairs from '../../components/TrackChairs';
 
 export const metadata = { title: 'Workshops — PacificVis 2027' };
+
+const CHAIRS = [
+  {
+    name: 'Takanori Fujiwara',
+    affiliation: 'University of Arizona',
+    photo: '/images/committee/takanori-fujiwara.webp',
+  },
+  {
+    name: 'Junpeng Wang',
+    affiliation: 'Visa Research',
+    photo: '/images/committee/junpeng-wang.jpg',
+  },
+];
 
 export default function Page() {
   return (
@@ -21,10 +35,6 @@ export default function Page() {
           and research spanning both areas.
         </p>
         <p className="lead mt-4">
-          Organized by Takanori Fujiwara, University of Arizona, and Junpeng
-          Wang, Visa Research.
-        </p>
-        <p className="lead mt-4">
           View the{' '}
           <a href="https://vismeetsai.github.io/" className="link">
             workshop website and call for participation
@@ -32,6 +42,8 @@ export default function Page() {
           .
         </p>
       </section>
+
+      <TrackChairs title="Workshop Chairs" people={CHAIRS} />
     </PageShell>
   );
 }

@@ -14,7 +14,7 @@ const SECTIONS = [
     ],
   },
   {
-    title: 'Papers Chairs (Journal Track)',
+    title: 'Paper Chairs (Journal Track)',
     members: [
       {
         name: 'Jian Zhao',
@@ -34,7 +34,7 @@ const SECTIONS = [
     ],
   },
   {
-    title: 'Papers Chairs (Conference Track)',
+    title: 'Paper Chairs (Conference Track)',
     members: [
       {
         name: 'Yong Wang',
@@ -54,7 +54,7 @@ const SECTIONS = [
     ],
   },
   {
-    title: 'Visualization Notes Chairs',
+    title: 'VisNotes Chairs',
     members: [
       {
         name: 'Dongyu Liu',
@@ -74,7 +74,7 @@ const SECTIONS = [
     ],
   },
   {
-    title: 'Posters Chairs',
+    title: 'Poster Chairs',
     members: [
       {
         name: 'Minsuk Kahng',
@@ -105,6 +105,21 @@ const SECTIONS = [
         name: 'Angelos Chatzimparmpas',
         affiliation: 'Utrecht University',
         photo: '/images/committee/angelos-chatzimparmpas.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Visualization Meets AI Workshop Chairs',
+    members: [
+      {
+        name: 'Takanori Fujiwara',
+        affiliation: 'University of Arizona',
+        photo: '/images/committee/takanori-fujiwara.webp',
+      },
+      {
+        name: 'Junpeng Wang',
+        affiliation: 'Visa Research',
+        photo: '/images/committee/junpeng-wang.jpg',
       },
     ],
   },
@@ -143,7 +158,7 @@ const SECTIONS = [
       },
       {
         name: 'Kwan-Liu Ma',
-        affiliation: 'University of California',
+        affiliation: 'University of California, Davis',
         photo: '/images/committee/kwan-liu-ma.jpg',
       },
       {

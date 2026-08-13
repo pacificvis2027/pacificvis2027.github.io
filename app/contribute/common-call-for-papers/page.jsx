@@ -4,13 +4,13 @@ export const metadata = { title: 'Common Call for Papers — PacificVis 2027' };
 
 const TRACKS = [
   {
-    name: 'TVCG Journal Papers',
+    name: 'TVCG Journal Paper Track',
     href: '/contribute/tvcg-journal-papers/',
     submission: 'September 8, 2026',
     notification: 'October 27, 2026',
   },
   {
-    name: 'Conference Papers',
+    name: 'Conference Paper Track',
     href: '/contribute/conference-papers/',
     submission: 'November 9, 2026',
     notification: 'December 16, 2026',
@@ -28,14 +28,16 @@ const TRACKS = [
     notification: 'TBA',
   },
   {
-    name: 'Visual Data Storytelling',
+    name: 'Visual Data Storytelling Contest',
     href: '/contribute/storytelling/',
     submission: 'February 1, 2027',
     notification: 'February 15, 2027',
   },
   {
-    name: 'Workshops',
+    name: 'Visualization Meets AI Workshop',
     href: '/contribute/workshops/',
+    submission: 'December 18, 2026',
+    notification: 'February 1, 2027',
   },
 ];
 
@@ -46,8 +48,8 @@ export default function Page() {
         We invite original contributions across the full spectrum of
         visualization research — from theoretical foundations and novel
         techniques to application-driven case studies and storytelling.
-        Detailed submission guidelines for each track will be posted on the
-        respective pages as they are confirmed.
+        Please consult each track page for its current deadlines and submission
+        requirements.
       </p>
 
       <h2 className="h2 mt-4">Tracks</h2>
@@ -63,7 +65,7 @@ export default function Page() {
 
       <h2 className="h2 mt-8">Important Dates</h2>
       <p className="muted">
-        All deadlines are at 11:59pm (23:59) anywhere on Earth (AoE) unless
+        All deadlines are at 11:59pm (23:59) Anywhere on Earth (AoE) unless
         otherwise stated.
       </p>
       <div className="mt-4 overflow-x-auto">
@@ -85,7 +87,7 @@ export default function Page() {
             ))}
             <tr>
               <td className="font-medium text-slate-900">Conference Dates</td>
-              <td colSpan={2}>TBA</td>
+              <td colSpan={2}>April 19-22, 2027</td>
             </tr>
           </tbody>
         </table>

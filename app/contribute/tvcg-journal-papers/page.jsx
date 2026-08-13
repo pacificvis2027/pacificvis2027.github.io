@@ -67,7 +67,7 @@ export default function Page() {
           <thead>
             <tr>
               <th>Deadline</th>
-              <th>Dates</th>
+              <th>Date</th>
             </tr>
           </thead>
           <tbody>
@@ -128,12 +128,22 @@ export default function Page() {
             href="https://tc.computer.org/vgtc/publications/journal/"
             className="link"
           >
-            tc.computer.org/vgtc/publications/journal/
+            IEEE VGTC journal publication guide
           </a>
         </p>
       </section>
 
-      <TrackChairs title="Paper Chairs" people={CHAIRS} />
+      <TrackChairs title="Paper Chairs" people={CHAIRS}>
+        <p className="lead">
+          Contact:{' '}
+          <a
+            href="mailto:pvis27-jt_chairs@googlegroups.com"
+            className="link"
+          >
+            pvis27-jt_chairs@googlegroups.com
+          </a>
+        </p>
+      </TrackChairs>
     </PageShell>
   );
 }

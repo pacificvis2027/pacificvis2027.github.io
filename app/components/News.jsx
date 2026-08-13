@@ -1,6 +1,6 @@
 const NEWS = [
   {
-    date: 'Coming soon',
+    date: 'Conference',
     body: 'Welcome to the official site for the 20th IEEE Pacific Visualization Conference, taking place in Busan, South Korea, April 19-22, 2027.',
   },
   {
@@ -21,7 +21,7 @@ const NEWS = [
   },
   {
     date: 'Registration',
-    body: 'Registration dates are TBA. Fees will be updated as registration details are confirmed.',
+    body: 'The 2027 fee schedule is available. Registration dates and the registration link are TBA.',
   },
 ];
 

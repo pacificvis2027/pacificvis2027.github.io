@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 export const metadata = {
   title: 'PacificVis 2027',
   description:
-    'The 20th IEEE Pacific Visualization Conference (PacificVis 2027), Busan, South Korea.',
+    'The 20th IEEE Pacific Visualization Conference (PacificVis 2027), April 19-22, 2027, in Busan, South Korea.',
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',

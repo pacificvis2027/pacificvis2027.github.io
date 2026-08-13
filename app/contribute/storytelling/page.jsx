@@ -302,7 +302,7 @@ export default function Page() {
 
       <section>
         <h2 className="h2">Important Deadlines</h2>
-        <p className="muted">All dates are midnight AOE.</p>
+        <p className="muted">All dates are midnight AoE.</p>
         <div className="mt-4 overflow-x-auto">
           <table className="table-classic">
             <thead>

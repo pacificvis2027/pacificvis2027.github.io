@@ -9,7 +9,7 @@ export default function Page() {
         For general inquiries about PacificVis 2027, please contact the
         Organizing Committee:
       </p>
-      <ul className="mt-3 space-y-2 text-slate-700">
+      <ul className="lead mt-3 space-y-2">
         <li>
           Email:{' '}
           <a href="mailto:pacificvis27@gmail.com" className="link">
@@ -30,12 +30,11 @@ export default function Page() {
         </li>
       </ul>
       <p className="muted">
-        Specific track inquiries (papers, posters, workshops) will route to
-        respective chairs once their contact addresses are published on the{' '}
-        <a href="/committee/" className="link">
-          Committee
-        </a>{' '}
-        page.
+        For track-specific inquiries, use the contact address listed on the
+        relevant page under{' '}
+        <a href="/contribute/common-call-for-papers/" className="link">
+          Contribute
+        </a>.
       </p>
     </PageShell>
   );
