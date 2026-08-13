@@ -8,6 +8,18 @@ const NEWS = [
     body: 'The TVCG Journal Paper Track, Conference Paper Track, and Visual Data Storytelling Contest CFPs are now available.',
   },
   {
+    date: 'Workshop CFP',
+    body: (
+      <>
+        The{' '}
+        <a href="https://vismeetsai.github.io/" className="link">
+          Visualization Meets AI 2027 workshop
+        </a>{' '}
+        call for participation is now available.
+      </>
+    ),
+  },
+  {
     date: 'Registration',
     body: 'Registration dates are TBA. Fees will be updated as registration details are confirmed.',
   },
