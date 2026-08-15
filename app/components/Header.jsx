@@ -12,7 +12,7 @@ const NAV_ITEMS = [
       { label: 'Common Call for Papers',     href: '/contribute/common-call-for-papers/' },
       { label: 'TVCG Journal Papers',        href: '/contribute/tvcg-journal-papers/' },
       { label: 'Conference Papers',          href: '/contribute/conference-papers/' },
-      { label: 'Short Papers (VisNotes)',    href: '/contribute/short-papers/' },
+      { label: 'VisNotes (Short Paper) Track', href: '/contribute/short-papers/' },
       { label: 'Posters',                    href: '/contribute/posters/' },
       { label: 'Visual Data Storytelling',   href: '/contribute/storytelling/' },
       { label: 'Workshops',                  href: '/contribute/workshops/' },

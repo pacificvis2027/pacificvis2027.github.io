@@ -5,7 +5,7 @@ const NEWS = [
   },
   {
     date: 'Important dates',
-    body: 'The TVCG Journal Paper Track, Conference Paper Track, and Visual Data Storytelling Contest CFPs are now available.',
+    body: 'The TVCG Journal Paper Track, Conference Paper Track, VisNotes, and Visual Data Storytelling Contest CFPs are now available.',
   },
   {
     date: 'Workshop CFP',

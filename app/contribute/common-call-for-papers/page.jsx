@@ -16,10 +16,10 @@ const TRACKS = [
     notification: 'December 16, 2026',
   },
   {
-    name: 'Short Papers (VisNotes)',
+    name: 'VisNotes (Short Paper) Track',
     href: '/contribute/short-papers/',
-    submission: 'TBA',
-    notification: 'TBA',
+    submission: 'January 4, 2027',
+    notification: 'February 4, 2027',
   },
   {
     name: 'Posters',

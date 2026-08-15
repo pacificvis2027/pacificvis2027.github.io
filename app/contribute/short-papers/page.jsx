@@ -1,7 +1,9 @@
 import PageShell from '../../components/PageShell';
 import TrackChairs from '../../components/TrackChairs';
 
-export const metadata = { title: 'Short Papers (VisNotes) — PacificVis 2027' };
+export const metadata = {
+  title: 'VisNotes (Short Paper) Track — PacificVis 2027',
+};
 
 const CHAIRS = [
   {
@@ -23,11 +25,19 @@ const CHAIRS = [
 
 export default function Page() {
   return (
-    <PageShell eyebrow="Contribute" title="Short Papers (VisNotes)">
+    <PageShell
+      eyebrow="Contribute"
+      title="IEEE PacificVis 2027 - VisNotes (Short Paper) Track"
+    >
       <p className="lead">
-        VisNotes are concise contributions that present novel ideas,
-        late-breaking results, or systems. They offer a venue for compact yet
-        impactful contributions that complement full Conference Papers.
+        PacificVis 2027 features a short paper track called Visualization
+        Notes. VisNotes provides an opportunity to describe significant novel
+        work with contributions that may be narrower in scope or have limited
+        empirical support compared with a full paper. Submissions can present
+        late-breaking results or work in progress, while they should be novel
+        enough to attract interest from the visualization community. We
+        encourage submissions of both new material and papers not accepted by
+        the Conference Paper Track.
       </p>
 
       <h2 className="h2 mt-8">Track-Specific Deadlines</h2>
@@ -45,17 +55,17 @@ export default function Page() {
           <tbody>
             <tr>
               <td className="font-medium text-slate-900">Papers</td>
-              <td>TBA</td>
+              <td>January 4, 2027</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">Notification</td>
-              <td>TBA</td>
+              <td>February 4, 2027</td>
             </tr>
             <tr>
               <td className="font-medium text-slate-900">
                 Camera-ready papers
               </td>
-              <td>TBA</td>
+              <td>February 18, 2027</td>
             </tr>
           </tbody>
         </table>
@@ -65,8 +75,9 @@ export default function Page() {
         <h2 className="h2">Submission Instructions</h2>
         <p className="lead mt-3">
           Original, unpublished short papers of up to 6 pages, including
-          references, are invited. Accepted VisNotes will appear in the IEEE
-          Digital Library.
+          references, are invited. Six pages is the length limit, not the
+          expected length. All accepted papers will appear in the IEEE Digital
+          Library.
         </p>
         <p className="lead mt-3">
           Manuscripts should follow the IEEE VGTC conference author guidelines:{' '}

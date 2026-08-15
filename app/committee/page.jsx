@@ -124,12 +124,102 @@ const SECTIONS = [
     ],
   },
   {
+    title: 'Finance Chairs',
+    members: [
+      {
+        name: 'Hyunjoo Song',
+        affiliation: 'Soongsil University',
+        photo: '/images/committee/hyunjoo-song.jpg',
+      },
+      {
+        name: 'Hyotaek Jeon',
+        affiliation: 'POSTECH',
+        photo: '/images/committee/hyotaek-jeon.jpeg',
+      },
+    ],
+  },
+  {
+    title: 'Publication Chair',
+    members: [
+      {
+        name: 'Dae Hyun Kim',
+        affiliation: 'Yonsei University',
+        photo: '/images/committee/dae-hyun-kim.png',
+      },
+    ],
+  },
+  {
+    title: 'Diversity Chair',
+    members: [
+      {
+        name: 'DongHwa Shin',
+        affiliation: 'Kwangwoon University',
+        photo: '/images/committee/donghwa-shin.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Web Chairs',
+    members: [
+      {
+        name: 'Jaemin Jo',
+        affiliation: 'Sungkyunkwan University',
+        photo: '/images/committee/jaemin-jo.jpg',
+      },
+      {
+        name: 'Sungbeom Cho',
+        affiliation: 'POSTECH',
+        photo: '/images/committee/sungbeom-cho.JPG',
+      },
+    ],
+  },
+  {
     title: 'Local Organizing Chairs',
     members: [
       {
         name: 'Sunghee Kim',
         affiliation: 'Dong-Eui University',
         photo: '/images/committee/sunghee-kim.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Sponsorship Chair',
+    members: [
+      {
+        name: 'Tak Yeon Lee',
+        affiliation: 'KAIST',
+        photo: '/images/committee/tak-yeon-lee.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Student Volunteer Chair',
+    members: [
+      {
+        name: 'Sungbok Shin',
+        affiliation: 'Sogang University',
+        photo: '/images/committee/sungbok-shin.webp',
+      },
+    ],
+  },
+  {
+    title: 'Publicity Chair',
+    members: [
+      {
+        name: 'Hyunwook Lee',
+        affiliation: 'Soongsil University',
+        photo: '/images/committee/hyunwook-lee.png',
+      },
+    ],
+  },
+  {
+    title: 'Registration Chair',
+    members: [
+      {
+        name: 'Changhee Lee',
+        affiliation: 'POSTECH',
+        photo: '/images/committee/changhee-lee.jpeg',
       },
     ],
   },
@@ -143,7 +233,7 @@ const SECTIONS = [
       },
       {
         name: 'Issei Fujishiro',
-        affiliation: 'Keio University',
+        affiliation: 'Komazawa University',
         photo: '/images/committee/issei-fujishiro.jpg',
       },
       {

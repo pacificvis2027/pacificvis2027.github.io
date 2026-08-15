@@ -18,7 +18,7 @@ const PAPER_TRACKS = [
       'Up to 9 + 2 pages, with only acknowledgments and references on the last two pages.',
   },
   {
-    name: 'Short Papers (VisNotes)',
+    name: 'VisNotes (Short Paper) Track',
     href: '/contribute/short-papers/',
     requirements: 'Up to 6 pages, including references.',
   },
