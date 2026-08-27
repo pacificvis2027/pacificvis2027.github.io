@@ -78,11 +78,7 @@ export default function Page() {
           immersive experiences, and other unconventional forms.
         </p>
         <p className="lead mt-4">
-          View the{' '}
-          <a href="/contribute/storytelling/" className="link">
-            full call for participation
-          </a>{' '}
-          or visit the{' '}
+          To view the full call for participation, please visit the{' '}
           <a href="https://visstory.github.io/" className="link">
             contest website
           </a>
