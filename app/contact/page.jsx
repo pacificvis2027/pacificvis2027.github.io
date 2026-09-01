@@ -2,39 +2,66 @@ import PageShell from '../components/PageShell';
 
 export const metadata = { title: 'Contact — PacificVis 2027' };
 
+const CONTACTS = [
+  {
+    label: 'PacificVis 2027 General Inquiry Email',
+    email: 'pacificvis27@gmail.com',
+  },
+  {
+    label: 'PacificVis 2027 Papers Co-chairs (Journal Track)',
+    email: 'pvis27-jt_chairs@googlegroups.com',
+  },
+  {
+    label: 'PacificVis 2027 Papers Co-chairs (Conference Track)',
+    email: 'pvis27-ct_chairs@googlegroups.com',
+  },
+  {
+    label: 'PacificVis 2027 VisNotes Co-chairs',
+    email: 'pvis27-vn_chairs@googlegroups.com',
+  },
+  {
+    label: 'PacificVis 2027 Posters Co-chairs',
+    email: 'pvis27-p_chairs@googlegroups.com',
+  },
+  {
+    label: 'PacificVis 2027 Visual Data Storytelling Contest Co-chairs',
+    email: 'pvis27-vst_chairs@googlegroups.com',
+  },
+];
+
 export default function Page() {
   return (
     <PageShell title="Contact">
       <p className="lead">
-        For general inquiries about PacificVis 2027, please contact the
-        Organizing Committee:
+        For general or track-specific inquiries about PacificVis 2027, please
+        use the appropriate contact address below.
       </p>
-      <ul className="lead mt-3 space-y-2">
-        <li>
-          Email:{' '}
-          <a href="mailto:pacificvis27@gmail.com" className="link">
-            pacificvis27@gmail.com
-          </a>
-        </li>
-        <li>Conference location: Busan, South Korea</li>
-        <li>
-          Steering Committee:{' '}
-          <a
-            href="https://pacificvis.github.io/"
-            target="_blank"
-            rel="noreferrer"
-            className="link"
-          >
-            pacificvis.github.io
-          </a>
-        </li>
-      </ul>
+
+      <div className="mt-5 overflow-x-auto">
+        <table className="table-classic">
+          <thead>
+            <tr>
+              <th>Contact</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            {CONTACTS.map((contact) => (
+              <tr key={contact.email}>
+                <td className="font-medium text-slate-900">{contact.label}</td>
+                <td>
+                  <a href={`mailto:${contact.email}`} className="link">
+                    {contact.email}
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
       <p className="muted">
-        For track-specific inquiries, use the contact address listed on the
-        relevant page under{' '}
-        <a href="/contribute/common-call-for-papers/" className="link">
-          Contribute
-        </a>.
+        Conference location: Busan, South Korea
       </p>
     </PageShell>
   );

@@ -24,8 +24,8 @@ const TRACKS = [
   {
     name: 'Posters',
     href: '/contribute/posters/',
-    submission: 'TBA',
-    notification: 'TBA',
+    submission: 'February 19, 2027',
+    notification: 'March 12, 2027',
   },
   {
     name: 'Visual Data Storytelling Contest',

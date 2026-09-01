@@ -36,6 +36,12 @@ const STORYTELLING_CHAIRS = [
   },
 ];
 
+const POSTER_DATES = [
+  ['Submission deadline', 'February 19, 2027'],
+  ['Notification', 'March 12, 2027'],
+  ['Camera-ready deadline', 'March 21, 2027'],
+];
+
 const STORYTELLING_DATES = [
   ['Submission deadline', 'February 1, 2027'],
   ['Notification date', 'February 15, 2027'],
@@ -56,9 +62,33 @@ export default function Page() {
         <h2 className="h2">Posters</h2>
         <p className="lead mt-4">
           The Posters track showcases work-in-progress, late-breaking results,
-          and student research. Submission dates and detailed program
-          information are still to be announced.
+          and student research. Detailed session information will be announced
+          closer to the conference.
         </p>
+
+        <h3 className="h3 mt-7">Important Dates</h3>
+        <p className="muted mt-2">
+          All deadlines are at 11:59pm (23:59) Anywhere on Earth (AoE).
+        </p>
+        <div className="mt-4 overflow-x-auto">
+          <table className="table-classic">
+            <thead>
+              <tr>
+                <th>Deadline</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              {POSTER_DATES.map(([label, date]) => (
+                <tr key={label}>
+                  <td className="font-medium text-slate-900">{label}</td>
+                  <td>{date}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
         <p className="lead mt-4">
           View the{' '}
           <a href="/contribute/posters/" className="link">
