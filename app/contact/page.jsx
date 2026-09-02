@@ -8,6 +8,10 @@ const CONTACTS = [
     email: 'pacificvis27@gmail.com',
   },
   {
+    label: 'PacificVis Steering Committee',
+    email: 'sc@pacificvis.org',
+  },
+  {
     label: 'PacificVis 2027 Papers Co-chairs (Journal Track)',
     email: 'pvis27-jt_chairs@googlegroups.com',
   },
