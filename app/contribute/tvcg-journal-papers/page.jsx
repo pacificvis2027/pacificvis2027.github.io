@@ -114,6 +114,13 @@ export default function Page() {
       <section>
         <h2 className="h2">Submission Instructions</h2>
         <p className="lead mt-3">
+          See the{' '}
+          <a href="/contribute/paper-submission-guidelines/" className="link">
+            Paper Submission Guidelines
+          </a>{' '}
+          for the PCS submission site and common submission policies.
+        </p>
+        <p className="lead mt-3">
           Submissions are strictly limited to 9 pages, with an additional 2
           pages of references. Authors may choose to anonymize their submission,
           but this is not required as both single-blind and double-blind

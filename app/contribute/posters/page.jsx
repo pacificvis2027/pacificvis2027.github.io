@@ -69,6 +69,13 @@ export default function Page() {
       <section>
         <h2 className="h2">Submission Instructions</h2>
         <p className="lead mt-3">
+          See the{' '}
+          <a href="/contribute/paper-submission-guidelines/" className="link">
+            Paper Submission Guidelines
+          </a>{' '}
+          for the PCS submission site and common submission policies.
+        </p>
+        <p className="lead mt-3">
           Original, unpublished poster summaries of up to 2 pages, including
           figures, tables, and references, are invited.
         </p>

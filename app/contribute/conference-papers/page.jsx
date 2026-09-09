@@ -144,6 +144,13 @@ export default function Page() {
       <section>
         <h2 className="h2">Submission Instructions</h2>
         <p className="lead mt-3">
+          See the{' '}
+          <a href="/contribute/paper-submission-guidelines/" className="link">
+            Paper Submission Guidelines
+          </a>{' '}
+          for the PCS submission site and common submission policies.
+        </p>
+        <p className="lead mt-3">
           Original, unpublished full papers of up to 9 + 2 pages (with only
           acknowledgments and references on the last two pages) are invited. The
           manuscript should be prepared according to the guide for authors given
