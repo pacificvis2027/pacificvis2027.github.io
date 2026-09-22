@@ -1,37 +1,49 @@
 import PageShell from '../../components/PageShell';
+import { TravelFacts, TravelPhoto } from '../../travel/TravelContent';
+import { VENUE } from '../venue';
 
 export const metadata = { title: 'Venue Information — PacificVis 2027' };
 
 export default function Page() {
   return (
     <PageShell eyebrow="Venue" title="Venue Information">
-      <p className="lead">
-        PacificVis 2027 will be hosted in <strong>Busan, South Korea</strong>{' '}
-        — the country&rsquo;s second largest city and a global gateway port,
-        known for its iconic beaches, the Gwangan Bridge, and a thriving
-        creative-tech scene. The exact venue address, room layout, and
-        on-site logistics will be announced as we approach the event.
+      <h2 className="text-3xl font-semibold text-slate-900">{VENUE.name}</h2>
+      <p className="text-lg leading-8">
+        PacificVis 2027 will take place at Paradise Hotel Busan, on the Haeundae
+        beachfront. Conference meeting rooms, the registration-desk location,
+        and on-site arrangements will be announced.
       </p>
-
-      <div className="mt-4 border border-slate-200">
+      <div className="text-lg leading-8">
+        <TravelFacts items={[
+          ['Address', VENUE.address],
+          ['For your taxi', <span key="ko" lang="ko">{VENUE.koreanAddress}</span>],
+          ['Nearest metro', 'Haeundae Station, Line 2. The hotel lists an approximately 10-minute walk from exit 3 or 5.'],
+        ]} />
+      </div>
+      <div className="flex flex-wrap gap-x-6 gap-y-2 text-lg">
+        <a className="link" href={VENUE.website}>Hotel website</a>
+        <a className="link" href="/travel/airport-to-busan/">Transportation to the venue</a>
+        <a className="link" href="/travel/accommodations/">Accommodations</a>
+      </div>
+      <TravelPhoto
+        src={VENUE.photo}
+        alt="Paradise Hotel Busan viewed from Haeundae Beach"
+        caption="Paradise Hotel Busan (2018)."
+        credit={VENUE.photoCredit}
+      />
+      <div className="border border-slate-200">
         <iframe
-          title="Map of Busan, South Korea"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=128.95%2C35.05%2C129.20%2C35.22&layer=mapnik&marker=35.1379%2C129.0756"
-          className="h-[420px] w-full"
+          title="Location of Paradise Hotel Busan"
+          src={VENUE.mapEmbedUrl}
+          className="h-[380px] w-full"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          allowFullScreen
         />
-        <div className="flex items-center justify-between border-t border-slate-200 px-4 py-2 text-xs text-slate-500">
-          <span>Approximate location · Busan, South Korea</span>
-          <a
-            className="link"
-            href="https://www.openstreetmap.org/?mlat=35.1379&mlon=129.0756#map=11/35.1379/129.0756"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View larger map →
-          </a>
-        </div>
+        <p className="border-t border-slate-200 px-4 py-3 text-sm text-slate-600">
+          {VENUE.name}{' '}
+          <a className="link" href={VENUE.mapUrl}>View larger map</a>
+        </p>
       </div>
     </PageShell>
   );

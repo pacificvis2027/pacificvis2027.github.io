@@ -43,7 +43,7 @@ const NAV_ITEMS = [
   {
     label: 'Travel',
     children: [
-      { label: 'Airport to Busan',     href: '/travel/airport-to-busan/' },
+      { label: 'Transportation',       href: '/travel/airport-to-busan/' },
       { label: 'Visa Information',     href: '/travel/visa-information/' },
       { label: 'Accommodations',       href: '/travel/accommodations/' },
       { label: 'Tourist Attractions',  href: '/travel/tourist-attractions/' },
@@ -58,6 +58,7 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [isNavigating, setIsNavigating] = useState(false);
   const pathname = usePathname();
+  const isTravel = pathname === '/travel' || pathname.startsWith('/travel/');
   const navRef = useRef(null);
   const navigationTimerRef = useRef(null);
 
@@ -94,7 +95,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-      <div className="mx-auto flex h-40 w-full max-w-7xl items-center px-5 sm:px-8 lg:px-10">
+      <div className={'mx-auto flex w-full max-w-7xl items-center px-5 sm:px-8 lg:px-10 ' + (isTravel ? 'h-24' : 'h-40')}>
         <Link
           href="/"
           className="flex shrink-0 items-center"
@@ -104,13 +105,15 @@ export default function Header() {
           <img
             src="/images/pvis27-logo.png"
             alt="PacificVis 2027 logo"
-            className="h-20 w-auto max-w-[260px] object-contain sm:h-24"
+            className={'w-auto max-w-[260px] object-contain ' + (isTravel ? 'h-14 sm:h-16' : 'h-20 sm:h-24')}
           />
         </Link>
 
         <nav
           ref={navRef}
-          className="ml-auto hidden items-center gap-6 pl-16 lg:flex xl:gap-8 xl:pl-24"
+          className={isTravel
+            ? 'ml-auto hidden items-center gap-3 pl-8 xl:flex'
+            : 'ml-auto hidden items-center gap-6 pl-16 2xl:flex 2xl:gap-8 2xl:pl-24'}
           aria-label="Primary"
         >
           {NAV_ITEMS.map((item) => (
@@ -129,7 +132,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="ml-auto grid h-9 w-9 place-items-center rounded border border-slate-300 text-slate-700 lg:hidden"
+          className={'ml-auto grid h-9 w-9 place-items-center rounded border border-slate-300 text-slate-700 ' + (isTravel ? 'xl:hidden' : '2xl:hidden')}
           aria-label="Toggle navigation"
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((v) => !v)}
@@ -152,7 +155,7 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-slate-200 bg-white lg:hidden">
+        <div className={'border-t border-slate-200 bg-white ' + (isTravel ? 'xl:hidden' : '2xl:hidden')}>
           <div className="container-page flex flex-col py-3">
             {NAV_ITEMS.map((item) => (
               <MobileNavItem

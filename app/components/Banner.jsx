@@ -1,4 +1,11 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
+
 export default function Banner() {
+  const pathname = usePathname();
+  if (pathname === '/travel' || pathname.startsWith('/travel/')) return null;
+
   return (
     <div className="border-b border-slate-200 bg-slate-50">
       <figure>
