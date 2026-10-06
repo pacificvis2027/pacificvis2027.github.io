@@ -348,69 +348,6 @@ const TVCG_PROGRAM_COMMITTEE = [
   { name: 'Qian Zhu', affiliation: 'Renmin University' },
 ];
 
-const CONFERENCE_PROGRAM_COMMITTEE = [
-  { name: 'Natalia Andrienko', affiliation: 'Fraunhofer IAIS' },
-  { name: 'Alessio Arleo', affiliation: 'Eindhoven University of Technology' },
-  { name: 'Anjana Arunkumar', affiliation: 'Bespoke Labs' },
-  { name: 'Cindy Xiong Bearfield', affiliation: 'Georgia Institute of Technology' },
-  { name: 'Enrico Bertini', affiliation: 'Northeastern University' },
-  { name: 'Chongke Bi', affiliation: 'Tianjin University' },
-  { name: 'Magdalena Boucher', affiliation: 'St. Pölten University of Applied Sciences' },
-  { name: 'Matthew Brehmer', affiliation: 'University of Waterloo' },
-  { name: 'Chris Bryan', affiliation: 'Arizona State University' },
-  { name: 'Guoning Chen', affiliation: 'University of Houston' },
-  { name: 'Jian Chen', affiliation: 'Ohio State University' },
-  { name: 'Wei Chen', affiliation: 'Zhejiang University' },
-  { name: 'Isaac Cho', affiliation: 'Utah State University' },
-  { name: 'Ana Crisan', affiliation: 'University of Waterloo' },
-  { name: 'Weiwei Cui', affiliation: 'Microsoft Research Asia' },
-  { name: 'Andrew Cunningham', affiliation: 'University of South Australia' },
-  { name: 'Maxime Cordeil', affiliation: 'University of Queensland' },
-  { name: 'Sara Di Bartolomeo', affiliation: 'TU Wien' },
-  { name: 'Walter Didimo', affiliation: 'University of Perugia' },
-  { name: 'Klaus Eckelt', affiliation: 'Kepler University Linz' },
-  { name: 'Mennatallah El-Assady', affiliation: 'ETH Zürich' },
-  { name: 'Hanqi Guo', affiliation: 'Ohio State University' },
-  { name: 'Shunan Guo', affiliation: 'Adobe Research' },
-  { name: 'Markus Hadwiger', affiliation: 'KAUST' },
-  { name: 'Alberto Jaspe-Villanueva', affiliation: 'KAUST' },
-  { name: 'Andreas Kerren', affiliation: 'Linköping University' },
-  { name: 'Karsten Klein', affiliation: 'Konstanz University' },
-  { name: 'Xingyu Lan', affiliation: 'Fudan University' },
-  { name: 'Alexander Lex', affiliation: 'Graz University of Technology' },
-  { name: 'Haotian Li', affiliation: 'Microsoft Research' },
-  { name: 'Can Liu', affiliation: 'Nanyang Technological University' },
-  { name: 'Min Lu', affiliation: 'Shenzhen University' },
-  { name: 'Andrew McNutt', affiliation: 'University of Utah' },
-  { name: 'Wouter Meulemans', affiliation: 'Eindhoven University of Technology' },
-  { name: 'Kazuo Misue', affiliation: 'University of Tsukuba' },
-  { name: 'Tamara Mtsentlintze', affiliation: 'Utrecht University' },
-  { name: 'Martin Nöllenburg', affiliation: 'TU Wien' },
-  { name: 'Paul Rosen', affiliation: 'University of Utah' },
-  { name: 'Tobias Schreck', affiliation: 'Graz University of Technology' },
-  { name: 'Michael Sedlmair', affiliation: 'University of Stuttgart' },
-  { name: 'Yang Shi', affiliation: 'Tongji University' },
-  { name: 'Maoyuan Sun', affiliation: 'Northern Illinois University' },
-  { name: 'Alessandra Tappini', affiliation: 'University of Perugia' },
-  { name: 'Holger Theisel', affiliation: 'Otto von Guericke University Magdeburg' },
-  { name: 'Xavier Tricoche', affiliation: 'Purdue University' },
-  { name: 'Kevin Verbeek', affiliation: 'Eindhoven University of Technology' },
-  { name: 'Markus Wallinger', affiliation: 'Technical University of Munich' },
-  { name: 'Xiting Wang', affiliation: 'Gaoling School of Artificial Intelligence at the Renmin University of China' },
-  { name: 'Yun Wang', affiliation: 'Microsoft Research Asia' },
-  { name: 'Yunhai Wang', affiliation: 'Renmin University' },
-  { name: 'Jiazhi Xia', affiliation: 'Central South University' },
-  { name: 'Xian Xu', affiliation: 'Lingnan University' },
-  { name: 'Ke Xu', affiliation: 'Huawei Technologies Co. Ltd' },
-  { name: 'Weikai Yang', affiliation: 'Hong Kong University of Science and Technology (Guangzhou)' },
-  { name: 'Leni Yang', affiliation: 'Inria Bordeaux' },
-  { name: 'Qiong Zeng', affiliation: 'Shandong University' },
-  { name: 'Ying Zhao', affiliation: 'Central South University' },
-  { name: 'Zichun Zhong', affiliation: 'Wayne State University' },
-  { name: 'Lu Ying', affiliation: 'Zhejiang University' },
-  { name: 'Kaiyuan Tang', affiliation: 'University of Notre Dame' },
-];
-
 const VISNOTES_PROGRAM_COMMITTEE = [
   { name: 'Adam Coscia', affiliation: 'Stevens Institute of Technology' },
   { name: 'Alexander Bendeck', affiliation: 'Georgia Institute of Technology' },
@@ -596,12 +533,6 @@ export default function Page() {
           id="tvcg-program-committee"
           title="TVCG Journal Track Program Committee Members"
           members={TVCG_PROGRAM_COMMITTEE}
-        />
-
-        <ProgramCommitteeTable
-          id="conference-program-committee"
-          title="Conference Track Program Committee Members"
-          members={CONFERENCE_PROGRAM_COMMITTEE}
         />
 
         <ProgramCommitteeTable
