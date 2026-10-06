@@ -498,30 +498,6 @@ function ProgramCommitteeTable({ id, title, members }) {
 export default function Page() {
   return (
     <PageShell title="Conference Committees">
-      <nav
-        aria-label="Committee sections"
-        className="flex flex-wrap gap-2 border-y border-slate-200 py-4"
-      >
-        <a
-          className="rounded border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-[#263c91] hover:text-[#263c91] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#263c91]"
-          href="#organization-committee"
-        >
-          Organization Committee
-        </a>
-        <a
-          className="rounded border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-[#263c91] hover:text-[#263c91] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#263c91]"
-          href="#tvcg-program-committee"
-        >
-          TVCG Journal Track PC
-        </a>
-        <a
-          className="rounded border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-[#263c91] hover:text-[#263c91] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#263c91]"
-          href="#conference-program-committee"
-        >
-          Conference Track PC
-        </a>
-      </nav>
-
       <div className="space-y-16">
         <section id="organization-committee" className="scroll-mt-44">
           <h2 className="font-serif text-3xl font-bold tracking-tight text-slate-900">
