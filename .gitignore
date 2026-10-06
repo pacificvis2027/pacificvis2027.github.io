@@ -43,3 +43,6 @@ pacificvis*_setup.csv
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ref
+ref/
