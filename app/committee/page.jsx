@@ -459,12 +459,9 @@ function MemberTile({ member }) {
 function ProgramCommitteeTable({ id, title, members }) {
   return (
     <section id={id} className="scroll-mt-44">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h2 className="font-serif text-3xl font-bold tracking-tight text-slate-900">
-          {title}
-        </h2>
-        <p className="text-sm text-slate-500">{members.length} members</p>
-      </div>
+      <h2 className="font-serif text-3xl font-bold tracking-tight text-slate-900">
+        {title}
+      </h2>
       <div className="mt-5 overflow-hidden rounded-sm border border-slate-200">
         <table className="w-full table-fixed border-collapse text-left">
           <thead className="bg-slate-100 text-sm uppercase tracking-wide text-slate-600">
