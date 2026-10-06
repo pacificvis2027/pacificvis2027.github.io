@@ -411,6 +411,47 @@ const CONFERENCE_PROGRAM_COMMITTEE = [
   { name: 'Kaiyuan Tang', affiliation: 'University of Notre Dame' },
 ];
 
+const VISNOTES_PROGRAM_COMMITTEE = [
+  { name: 'Adam Coscia', affiliation: 'Stevens Institute of Technology' },
+  { name: 'Alexander Bendeck', affiliation: 'Georgia Institute of Technology' },
+  { name: 'Arran Zeyu Wang', affiliation: 'University of North Carolina at Chapel Hill' },
+  { name: 'Dazhen Deng', affiliation: 'Zhejiang University' },
+  { name: 'Furui Cheng', affiliation: 'ETH Zürich' },
+  { name: 'Grace Guo', affiliation: 'Harvard University' },
+  { name: 'Huyen N. Nguyen', affiliation: 'Harvard Medical School' },
+  { name: 'Hyeon Jeon', affiliation: 'Seoul National University' },
+  { name: 'Jennifer Rogers', affiliation: 'Idaho National Laboratory' },
+  { name: 'Lily Ge', affiliation: 'Northwestern University' },
+  { name: 'Linping Yuan', affiliation: 'Hong Kong University of Science and Technology' },
+  { name: 'Liqi Cheng', affiliation: 'Zhejiang University' },
+  { name: 'Markus Wallinger', affiliation: 'Technical University of Munich' },
+  { name: 'Sichen Jin', affiliation: 'Georgia Institute of Technology' },
+  { name: 'Sicheng Song', affiliation: 'East China Normal University' },
+  { name: 'Songwen Hu', affiliation: 'Georgia Institute of Technology' },
+  { name: 'Sungbok Shin', affiliation: 'Sogang University' },
+  { name: 'Weidong Huang', affiliation: 'University of Technology Sydney' },
+  { name: 'Weikai Yang', affiliation: 'Hong Kong University of Science and Technology (Guangzhou)' },
+  { name: 'Haoyu Li', affiliation: 'Grand Valley State University' },
+  { name: 'Jincheng Li', affiliation: 'Beijing Normal University' },
+  { name: 'Shih-Hsuan Hung', affiliation: 'National Tsing Hua University' },
+  { name: 'Takanori Fujiwara', affiliation: 'University of Arizona' },
+  { name: "Sehi L'Yi", affiliation: 'Hong Kong University of Science and Technology' },
+  { name: 'Yu Zhang', affiliation: 'University of Oxford' },
+  { name: 'Jieqiong Zhao', affiliation: 'Augusta University' },
+  { name: 'Guan Li', affiliation: 'Computer Network Information Center, Chinese Academy of Sciences' },
+  { name: 'Kaiyuan Tang', affiliation: 'University of Notre Dame' },
+  { name: 'Kentaro Takahira', affiliation: 'Kyoto University' },
+  { name: 'Liwenhan Xie', affiliation: 'National University of Singapore' },
+  { name: 'Soumya Dutta', affiliation: 'Indian Institute of Technology Kanpur' },
+  { name: 'Wen-Chieh Lin', affiliation: 'National Yang Ming Chiao Tung University' },
+  { name: 'Xiaoyu Zhang', affiliation: 'City University of Hong Kong' },
+  { name: 'Yi Han', affiliation: 'National Sun Yat-sen University' },
+  { name: 'Ang Li', affiliation: 'University of Queensland' },
+  { name: 'Maxime Cordeil', affiliation: 'University of Queensland' },
+  { name: 'Hsiang-Yun Wu', affiliation: 'St. Pölten University of Applied Sciences' },
+  { name: 'Jolin Qu', affiliation: 'Western Sydney University' },
+];
+
 function initials(name) {
   return name
     .split(/\s+/)
@@ -561,6 +602,12 @@ export default function Page() {
           id="conference-program-committee"
           title="Conference Track Program Committee Members"
           members={CONFERENCE_PROGRAM_COMMITTEE}
+        />
+
+        <ProgramCommitteeTable
+          id="visnotes-program-committee"
+          title="VisNotes Program Committee Members"
+          members={VISNOTES_PROGRAM_COMMITTEE}
         />
       </div>
     </PageShell>
