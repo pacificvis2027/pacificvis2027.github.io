@@ -348,6 +348,49 @@ const TVCG_PROGRAM_COMMITTEE = [
   { name: 'Qian Zhu', affiliation: 'Renmin University' },
 ];
 
+const CONFERENCE_PROGRAM_COMMITTEE = [
+  { name: 'Daniel Archambault', affiliation: 'Newcastle University' },
+  { name: 'Anjana Arunkumar', affiliation: 'Bespoke Labs' },
+  { name: 'Chongke Bi', affiliation: 'Tianjin University' },
+  { name: 'Ciril Bohak', affiliation: 'University of Ljubljana' },
+  { name: 'Chris Bryan', affiliation: 'Arizona State University' },
+  { name: 'Guoning Chen', affiliation: 'University of Houston' },
+  { name: 'Wei Chen', affiliation: 'Zhejiang University' },
+  { name: 'Isaac Cho', affiliation: 'Hallym University' },
+  { name: 'Walter Didimo', affiliation: 'University of Perugia' },
+  { name: 'Shunan Guo', affiliation: 'Adobe Research' },
+  { name: 'Agnes Haryanto', affiliation: 'Monash University' },
+  { name: 'Andreas Kerren', affiliation: 'Linköping University' },
+  { name: 'Xingyu Lan', affiliation: 'Fudan University' },
+  { name: 'Guozheng Li', affiliation: 'Beijing Institute of Technology' },
+  { name: 'Min Lu', affiliation: 'Hong Kong University of Science and Technology (Guangzhou)' },
+  { name: 'Tamara Mtsentlintze', affiliation: 'Utrecht University' },
+  { name: 'Martin Nöllenburg', affiliation: 'TU Wien' },
+  { name: 'Mahsan Nourani', affiliation: 'Northeastern University' },
+  { name: 'Ghulam Jilani Quadri', affiliation: 'University of Oklahoma' },
+  { name: 'Shri Harini Ramesh', affiliation: 'Carleton University' },
+  { name: 'Tobias Schreck', affiliation: 'Graz University of Technology' },
+  { name: 'Yang Shi', affiliation: 'Tongji University' },
+  { name: 'Maoyuan Sun', affiliation: 'Northern Illinois University' },
+  { name: 'Kaiyuan Tang', affiliation: 'University of Notre Dame' },
+  { name: 'Alessandra Tappini', affiliation: 'Universita degli Studi di Perugia' },
+  { name: 'Melanie Tory', affiliation: 'Northeastern University' },
+  { name: 'Kevin Verbeek', affiliation: 'Eindhoven University of Technology' },
+  { name: 'Emily Wall', affiliation: 'Emory University' },
+  { name: 'Markus Wallinger', affiliation: 'Technical University of Munich' },
+  { name: 'Ko-Chih (Casey) Wang', affiliation: 'National Taiwan Normal University' },
+  { name: 'Yifang Wang', affiliation: 'Northwestern University' },
+  { name: 'Tino Weinkauf', affiliation: 'KTH Royal Institute of Technology' },
+  { name: 'Weikai Yang', affiliation: 'Hong Kong University of Science and Technology (Guangzhou)' },
+  { name: 'Lu Ying', affiliation: 'Zhejiang University' },
+  { name: 'Hongfeng Yu', affiliation: 'University of Nebraska-Lincoln' },
+  { name: 'Yuheng Zhao', affiliation: 'Fudan University' },
+  { name: 'Qiong Zeng', affiliation: 'Shandong University' },
+  { name: 'Xiaoyu Zhang', affiliation: 'City University of Hong Kong' },
+  { name: 'Ying Zhao', affiliation: 'Central South University' },
+  { name: 'Zichun Zhong', affiliation: 'Wayne State University' },
+];
+
 const VISNOTES_PROGRAM_COMMITTEE = [
   { name: 'Adam Coscia', affiliation: 'Stevens Institute of Technology' },
   { name: 'Alexander Bendeck', affiliation: 'Georgia Institute of Technology' },
@@ -533,6 +576,12 @@ export default function Page() {
           id="tvcg-program-committee"
           title="TVCG Journal Track Program Committee Members"
           members={TVCG_PROGRAM_COMMITTEE}
+        />
+
+        <ProgramCommitteeTable
+          id="conference-program-committee"
+          title="Conference Track Program Committee Members"
+          members={CONFERENCE_PROGRAM_COMMITTEE}
         />
 
         <ProgramCommitteeTable
