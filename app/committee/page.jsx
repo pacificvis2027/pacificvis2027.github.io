@@ -304,7 +304,7 @@ const TVCG_PROGRAM_COMMITTEE = [
   { name: 'Philipp Kindermann', affiliation: 'University of Trier' },
   { name: 'Martin Krzywinski', affiliation: 'BC Cancer Research Centre' },
   { name: 'Kostiantyn Kucher', affiliation: 'Linnaeus University' },
-  { name: 'Oh-Hyun Kwon', affiliation: 'Apple' },
+  { name: 'Oh-Hyun Kwon', affiliation: 'Hudson River Trading' },
   { name: 'Xingyu Lan', affiliation: 'Fudan University' },
   { name: 'Le Liu', affiliation: 'Northwestern Polytechnical University' },
   { name: 'Bongshin Lee', affiliation: 'Yonsei University' },
